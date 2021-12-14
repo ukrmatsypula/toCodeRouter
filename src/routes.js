@@ -5,8 +5,11 @@ Vue.use(router);
 
 import Home from "@/pages/Home";
 import Example from "@/pages/Example";
+import notFound from "@/pages/404";
 
 export default new router({
+  mode: "history",
+
   routes: [
     {
       path: "/",
@@ -18,6 +21,12 @@ export default new router({
       path: "/example",
       name: "example",
       component: Example,
+    },
+
+    {
+      path: "*",
+      name: "notFound",
+      component: notFound,
     },
   ],
 });
