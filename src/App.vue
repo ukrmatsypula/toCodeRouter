@@ -4,7 +4,7 @@
       <div class="navbar">
         <div class="container">
           <div class="navbar-content">
-            <div class="logo">VUE-CLI</div>
+            <router-link class="logo" to="/">VUE-CLI</router-link>
             <ul class="navbar-list">
               <li
                 class="navbar-item"
