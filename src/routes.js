@@ -5,6 +5,7 @@ Vue.use(router);
 
 import Home from "@/pages/Home";
 import Shop from "@/pages/Shop";
+import ProductDatail from "@/pages/ProductDatail";
 import notFound from "@/pages/404";
 
 export default new router({
@@ -21,6 +22,12 @@ export default new router({
       path: "/shop",
       name: "shop",
       component: Shop,
+    },
+
+    {
+      path: "/shop/:id",
+      name: "product",
+      component: ProductDatail,
     },
 
     {

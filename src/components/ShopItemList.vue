@@ -1,13 +1,15 @@
 <template>
   <div>
     <img :src="product.img" :alt="product.title" />
-    <p>{{ product.title }}</p>
+    <router-link class="link" :to="`shop/${product.id}`" tag="p">
+      {{ product.title }}
+    </router-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: "ShopItem",
+  name: "ShopItemList",
   props: {
     product: {
       type: Object,

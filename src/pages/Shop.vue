@@ -4,7 +4,7 @@
       <div class="container">
         <h1>Shop page</h1>
         <div class="item-wrapper">
-          <ShopItem
+          <ShopItemList
             v-for="product in shopList"
             :key="product.id"
             :product="product"
@@ -16,12 +16,12 @@
 </template>
 
 <script>
-import ShopItem from "@/components/ShopItem.vue";
+import ShopItemList from "@/components/ShopItemList.vue";
 
 export default {
   name: "Shop",
   components: {
-    ShopItem,
+    ShopItemList,
   },
   data: () => ({
     shopList: null,
@@ -36,7 +36,7 @@ export default {
 
 <style lang="scss">
 .item {
-  max-width: 48%;
+  max-width: 40%;
   text-align: center;
 
   p {
