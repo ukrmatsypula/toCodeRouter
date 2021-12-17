@@ -4,7 +4,7 @@ import router from "vue-router";
 Vue.use(router);
 
 import Home from "@/pages/Home";
-import Example from "@/pages/Example";
+import Shop from "@/pages/Shop";
 import notFound from "@/pages/404";
 
 export default new router({
@@ -18,9 +18,9 @@ export default new router({
     },
 
     {
-      path: "/example",
-      name: "example",
-      component: Example,
+      path: "/shop",
+      name: "shop",
+      component: Shop,
     },
 
     {

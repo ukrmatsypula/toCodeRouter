@@ -32,7 +32,7 @@ export default {
   data: () => ({
     links: [
       { title: "Home", url: "/" },
-      { title: "Example", url: "/example" },
+      { title: "shop", url: "/shop" },
     ],
   }),
 };

@@ -2,7 +2,7 @@
   <div class="wrapper-content wrapper-content--fixed">
     <section>
       <div class="container">
-        <h1>Exapmle page</h1>
+        <h1>Shop page</h1>
       </div>
     </section>
   </div>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "Example",
+  name: "shop",
 };
 </script>
 
