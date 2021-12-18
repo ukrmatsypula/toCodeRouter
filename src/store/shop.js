@@ -57,8 +57,10 @@ export default {
     getShopList(state) {
       return state.shopList;
     },
-    getProduct: (state) => (id) => {
-      return state.shopList.find((product) => product.id === id);
+    getProduct: function (state) {
+      return function (id) {
+        return state.shopList.find((product) => product.id === id);
+      };
     },
   },
   mutations: {},

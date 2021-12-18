@@ -62,4 +62,10 @@ export default {
   font-weight: bold;
   font-size: 26px;
 }
+
+.VueCarousel-inner {
+  visibility: visible !important;
+  flex-basis: 100% !important;
+  width: 100% !important;
+}
 </style>
