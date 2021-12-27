@@ -1,5 +1,7 @@
 # router-app
 
+![Router app image](/src/assets/img/1.png)
+
 ## Project setup
 ```
 npm install
